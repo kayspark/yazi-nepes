@@ -1,0 +1,69 @@
+# Nepes Light — yazi flavor
+# Copy to ~/.config/yazi/flavors/nepes-light.yazi/flavor.toml
+
+[flavor]
+name = "nepes-light"
+author = "kayspark"
+desc = "Nepes corporate colorscheme — light variant"
+
+[manager]
+cwd = { fg = "#23438E" }
+hovered = { bg = "#D8D7D7" }
+preview_hovered = { bg = "#E7E6E6" }
+find_keyword = { fg = "#2A8030", bold = true }
+find_position = { fg = "#7A4FA0", italic = true }
+marker_copied = { fg = "#2A8030", bg = "#2A8030" }
+marker_cut = { fg = "#C4181F", bg = "#C4181F" }
+marker_marked = { fg = "#23438E", bg = "#23438E" }
+marker_selected = { fg = "#D08A10", bg = "#D08A10" }
+tab_active = { fg = "#1C1C1E", bg = "#F8F8F8" }
+tab_inactive = { fg = "#7A7A84", bg = "#F0F0F0" }
+count_copied = { fg = "#F8F8F8", bg = "#2A8030" }
+count_cut = { fg = "#F8F8F8", bg = "#C4181F" }
+count_selected = { fg = "#F8F8F8", bg = "#D08A10" }
+border_symbol = "|"
+border_style = { fg = "#D8D7D7" }
+
+[status]
+separator_open = ""
+separator_close = ""
+separator_style = { fg = "#D8D7D7", bg = "#D8D7D7" }
+mode_normal = { fg = "#F8F8F8", bg = "#23438E", bold = true }
+mode_select = { fg = "#F8F8F8", bg = "#2A8030", bold = true }
+mode_unset = { fg = "#F8F8F8", bg = "#7A4FA0", bold = true }
+progress_label = { fg = "#1C1C1E", bold = true }
+progress_normal = { fg = "#23438E", bg = "#D8D7D7" }
+progress_error = { fg = "#C4181F", bg = "#D8D7D7" }
+permissions_t = { fg = "#23438E" }
+permissions_r = { fg = "#2A8030" }
+permissions_w = { fg = "#C4181F" }
+permissions_x = { fg = "#D08A10" }
+permissions_s = { fg = "#7A7A84" }
+
+[input]
+border = { fg = "#23438E" }
+title = { fg = "#1C1C1E" }
+value = { fg = "#1C1C1E" }
+selected = { bg = "#D8D7D7" }
+
+[select]
+border = { fg = "#23438E" }
+active = { fg = "#2A8030", bold = true }
+inactive = { fg = "#3A3A3E" }
+
+[which]
+cols = 3
+mask = { bg = "#E7E6E6" }
+cand = { fg = "#2D7A82" }
+rest = { fg = "#7A7A84" }
+desc = { fg = "#3A3A3E" }
+separator = "  "
+separator_style = { fg = "#D8D7D7" }
+
+[completion]
+border = { fg = "#23438E" }
+active = { bg = "#D8D7D7" }
+inactive = {}
+icon_file = ""
+icon_folder = ""
+icon_command = ""
